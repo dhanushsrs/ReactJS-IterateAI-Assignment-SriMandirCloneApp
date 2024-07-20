@@ -1,0 +1,44 @@
+.header {
+  height: 40vw;
+  margin: 30px auto;
+  background-color: lightgoldenrodyellow;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.banner-image {
+  width: 350px;
+}
+
+.header-contents {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-contents p {
+  font-weight: normal;
+  font-size: medium;
+  margin-bottom: 15px;
+  color: brown;
+}
+
+.header-contents h1 span {
+  color: #e37413;
+}
+
+.header-contents h1 {
+  margin-bottom: 15px;
+}
+
+.playstore-appstore-container {
+  display: flex;
+  gap: 6px;
+}
+
+.playstore-appstore-container img {
+  max-width: 120px;
+  height: 40px;
+}
